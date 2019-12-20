@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 1em auto;
+  width: 70%;
+}
+
+.tabs > ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.tabs .trigger {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  list-style-type: none;
+  cursor: pointer;
+  background-color: wheat;
+}
+
+li.trigger:nth-child(2),
+li.trigger:nth-child(3) {
+  margin-left: -6px;
+}
+
+.tabs .trigger.active {
+  background-color: peachpuff;
+}
+
+.tabs .content {
+  display: none;
+  padding: 1em;
+  background-color: peachpuff;
+}
+.tabs .content.active {
+  display: block;
+}

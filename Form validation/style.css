@@ -1,0 +1,30 @@
+body {
+  background-color: #eee;
+}
+
+form {
+  max-width: 200px;
+  margin: 20px auto;
+  padding: 1em;
+  background-color: white;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 4px;
+}
+
+.feedback {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 0.5em;
+}
+
+.success {
+  border: 3px solid limegreen;
+}
+
+.error {
+  border: 3px solid crimson;
+}
